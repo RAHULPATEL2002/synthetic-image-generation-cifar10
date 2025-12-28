@@ -70,6 +70,7 @@ Two training configurations are evaluated under identical conditions:
 
 ## Project Structure
 
+```text
 synthetic_image_generation_project/
 ├── src/
 │   ├── train_model.py            # Baseline and synthetic training
@@ -94,6 +95,7 @@ synthetic_image_generation_project/
 │
 ├── requirements.txt
 └── README.md
+```
 
 
 ---
