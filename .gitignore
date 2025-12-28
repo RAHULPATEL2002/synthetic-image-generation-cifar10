@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# Large numpy files (optional – recommended)
+data/**/*.npy
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
