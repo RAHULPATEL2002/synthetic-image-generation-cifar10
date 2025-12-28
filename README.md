@@ -71,26 +71,26 @@ Two training configurations are evaluated under identical conditions:
 ## Project Structure
 
 synthetic_image_generation_project/
-│
 ├── src/
-│ ├── train_model.py # Baseline and synthetic training
-│ ├── synthetic_ratio.py # Synthetic data ratio experiments
-│ ├── plot_curves.py # Training vs test accuracy plots
-│ └── confusion_matrix.py # Confusion matrix generation
+│   ├── train_model.py            # Baseline and synthetic training
+│   ├── synthetic_ratio.py        # Synthetic data ratio experiments
+│   ├── plot_curves.py            # Training vs test accuracy plots
+│   └── confusion_matrix.py       # Confusion matrix generation
 │
 ├── models/
-│ ├── baseline_resnet18.pth
-│ └── synthetic_resnet18.pth
+│   ├── baseline_resnet18.pth
+│   └── synthetic_resnet18.pth
 │
 ├── results/
-│ ├── figures/
-│ │ ├── training_curves.png
-│ │ ├── confusion_matrix.png
-│ │ └── synthetic_ratio.png
-│ └── performance.csv
+│   ├── figures/
+│   │   ├── training_curves.png
+│   │   ├── confusion_matrix.png
+│   │   └── synthetic_ratio.png
+│   │
+│   └── performance.csv
 │
 ├── paper/
-│ └── synthetic_image_generation_ieee.tex
+│   └── synthetic_image_generation_ieee.tex
 │
 ├── requirements.txt
 └── README.md
