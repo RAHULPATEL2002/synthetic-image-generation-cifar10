@@ -10,8 +10,8 @@ from tqdm import tqdm
 
 # ---------------- CONFIG ----------------
 NUM_CLASSES = 10
-BATCH_SIZE = 64
-EPOCHS = 20
+BATCH_SIZE = 32
+EPOCHS = 50
 LR = 1e-4
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
